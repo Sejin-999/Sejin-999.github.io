@@ -1,0 +1,255 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Sejin의 개발공부</title>
+  <subtitle>hi , i'm sejin</subtitle>
+  <updated>2024-03-19T21:37:07+09:00</updated>
+  <author>
+    <name>Yang Se Jin</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="ko"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
+  <rights> © 2024 Yang Se Jin </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>test 해보기</title>
+    <link href="http://localhost:4000/posts/testPage/" rel="alternate" type="text/html" title="test 해보기" />
+    <published>2024-03-18T06:44:00+09:00</published>
+  
+    <updated>2024-03-18T06:44:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/testPage/</id>
+    <content src="http://localhost:4000/posts/testPage/" />
+    <author>
+      <name>Yang Se Jin</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      목차
+
+
+  링크
+  목록
+  코드 블록
+  인용문
+  이미지
+
+
+링크
+
+구글에 가보세요.
+
+목록
+
+
+  항목 1
+  항목 2
+    
+      하위 항목 1
+      하위 항목 2
+    
+  
+
+
+코드 블록
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+
+
+인용문
+
+
+  인용문입니다. 이것은 어떤 작가나 발언자의 말을 인용할 때 사용됩니다.
+
+
+이미지
+
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>JAVA에 대하여 - 서론</title>
+    <link href="http://localhost:4000/posts/Git%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%A4%EC%A0%95/" rel="alternate" type="text/html" title="JAVA에 대하여 - 서론" />
+    <published>2024-01-03T06:44:00+09:00</published>
+  
+    <updated>2024-03-19T16:10:37+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Git%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%A4%EC%A0%95/</id>
+    <content src="http://localhost:4000/posts/Git%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%A4%EC%A0%95/" />
+    <author>
+      <name>Yang Se Jin</name>
+    </author>
+
+  
+    
+    <category term="java" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      들어가며
+
+JAVA에 대해 공부하며 배운 것들을 정리하고 생각한 것들을 정리하는 포스트 입니다.
+
+개발자들이 많이 사용하는 언어가 궁금해 찾아보다 해당 사이트를 확인했습니다.
+
+
+
+https://www.tiobe.com/tiobe-index/
+
+Python , c 계열 , 자바 가 50 퍼센트 가량 비율을 차지하고 있습니다.
+
+특히, 대한민국에서는 정부 공식 프레임워크로 Spring기반을 사용하기 때문에 비중도가 높습니다.
+
+Python 의 경우 웹개발자 뿐만 아니라 AI , IOT등 차세대 분야에서도 많이 사용되고 있고 , 처음 언어를 공부할 때 편리하게 접근할 수 있어 높은 Ratings를 보여줍니다. 또한, 컴퓨터 공학을 전공하지는 않았지만 많은 관련업의 종사하시는 분들이 개발 언어로써 사용하고 ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Git 사용법 - 세팅</title>
+    <link href="http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0/" rel="alternate" type="text/html" title="Git 사용법 - 세팅" />
+    <published>2024-01-02T06:44:00+09:00</published>
+  
+    <updated>2024-01-02T06:44:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0/</id>
+    <content src="http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0/" />
+    <author>
+      <name>Yang Se Jin</name>
+    </author>
+
+  
+    
+    <category term="Git" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      들어가며
+
+이번 포스트 에서는 설정을 할것입니다.
+
+레포지토리를 만들어 업로드하는 과정들은 워낙 정보가 많으니 실제로 사용하는 법을 보여드리겠습니다.
+
+예를들어 git add -A , git commit -m “first” 이런 코드들을 주는 것은 대체 블로그가 많습니다.
+
+저는 이렇게 사용합니다.
+
+최근 IDE 가 발달하고 Git을 대부분 지원하기 때문에 딸깍 몇번 이면 알아서 해줍니다.
+
+그래서 굳이? shell명령어를 입력 해야하나? 라고 생각해볼 수도 있습니다.
+
+그렇지만 필자는 클라우드 서버환경 예로, AWS ,GCP 에서 서버를 만들고 입력할 때는 알고 있어야 편하게 작업할 수 있어서 공부하였습니다.
+
+그래서 로컬말고 클라우드 서버에서 진행해보겠습니다!
+
+로컬에서 사용중인(개발자 개인컴퓨터)...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Git 사용법 - 서론&amp;설치</title>
+    <link href="http://localhost:4000/posts/Git%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0&amp;%EC%84%A4%EC%B9%98/" rel="alternate" type="text/html" title="Git 사용법 - 서론&amp;amp;설치" />
+    <published>2024-01-01T06:44:00+09:00</published>
+  
+    <updated>2024-01-01T06:44:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Git%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0&amp;%EC%84%A4%EC%B9%98/</id>
+    <content src="http://localhost:4000/posts/Git%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0&amp;%EC%84%A4%EC%B9%98/" />
+    <author>
+      <name>Yang Se Jin</name>
+    </author>
+
+  
+    
+    <category term="Git" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      들어가며
+
+깃 , 깃허브는 개발자가 반드시 알아야 되는 필수 기술 중 하나라고 생각합니다.
+
+현재 개발자들이 애용하고 있고, 기업에서도 사용하고 있습니다.
+
+또한 , 많은 기능이 있어서 한 사이트 , 기술 스택에서 다양한 활동을 진행할 수 도 있습니다.
+
+포스트를 하며 여러 기술들에 대해 공부한 내용을 공유해 보려고 합니다.
+
+그래서 Git이 뭔데?
+
+Git 이란 버전관리 시스템 (VCS,Version Control System) 중 하나입니다.
+
+즉 , 버전을 관리하는 시스템 → 변경사항을 저장하고 , 메시지와함께 기록해둘 수 있습니다.
+
+왜 쓸까?
+
+여러 이유가 있지만 가장 근본적인 이유는 위 설명한 코드를 기록하는데 있습니다.
+
+그 외에도 여러 기능이 있는데 필자가 생각했을 때 가장 핵심적인 요소...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
