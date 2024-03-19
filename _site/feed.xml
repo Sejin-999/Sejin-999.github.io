@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Sejin의 개발공부</title>
   <subtitle>hi , i'm sejin</subtitle>
-  <updated>2024-03-19T21:39:44+09:00</updated>
+  <updated>2024-03-19T22:47:16+09:00</updated>
   <author>
     <name>Yang Se Jin</name>
     <uri>http://localhost:4000/</uri>
@@ -99,13 +99,13 @@ public class Main {
   
   <entry>
     <title>JAVA에 대하여 - 서론</title>
-    <link href="http://localhost:4000/posts/Git/" rel="alternate" type="text/html" title="JAVA에 대하여 - 서론" />
+    <link href="http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0/" rel="alternate" type="text/html" title="JAVA에 대하여 - 서론" />
     <published>2024-01-03T06:44:00+09:00</published>
   
     <updated>2024-01-03T06:44:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/Git/</id>
-    <content src="http://localhost:4000/posts/Git/" />
+    <id>http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0/</id>
+    <content src="http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0/" />
     <author>
       <name>Yang Se Jin</name>
     </author>
@@ -147,13 +147,13 @@ Python 의 경우 웹개발자 뿐만 아니라 AI , IOT등 차세대 분야에�
   
   <entry>
     <title>Git 사용법 - 세팅</title>
-    <link href="http://localhost:4000/posts/Java/" rel="alternate" type="text/html" title="Git 사용법 - 세팅" />
+    <link href="http://localhost:4000/posts/Git%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%A4%EC%A0%95/" rel="alternate" type="text/html" title="Git 사용법 - 세팅" />
     <published>2024-01-02T06:44:00+09:00</published>
   
     <updated>2024-01-02T06:44:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/Java/</id>
-    <content src="http://localhost:4000/posts/Java/" />
+    <id>http://localhost:4000/posts/Git%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%A4%EC%A0%95/</id>
+    <content src="http://localhost:4000/posts/Git%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%A4%EC%A0%95/" />
     <author>
       <name>Yang Se Jin</name>
     </author>
@@ -199,13 +199,13 @@ Python 의 경우 웹개발자 뿐만 아니라 AI , IOT등 차세대 분야에�
   
   <entry>
     <title>Git 사용법 - 서론&amp;설치</title>
-    <link href="http://localhost:4000/posts/Git/" rel="alternate" type="text/html" title="Git 사용법 - 서론&amp;amp;설치" />
+    <link href="http://localhost:4000/posts/Git%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0&amp;%EC%84%A4%EC%B9%98/" rel="alternate" type="text/html" title="Git 사용법 - 서론&amp;amp;설치" />
     <published>2024-01-01T06:44:00+09:00</published>
   
     <updated>2024-01-01T06:44:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/Git/</id>
-    <content src="http://localhost:4000/posts/Git/" />
+    <id>http://localhost:4000/posts/Git%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0&amp;%EC%84%A4%EC%B9%98/</id>
+    <content src="http://localhost:4000/posts/Git%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0&amp;%EC%84%A4%EC%B9%98/" />
     <author>
       <name>Yang Se Jin</name>
     </author>
