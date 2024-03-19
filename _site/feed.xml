@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Sejin의 개발공부</title>
   <subtitle>hi , i'm sejin</subtitle>
-  <updated>2024-03-19T22:47:16+09:00</updated>
+  <updated>2024-03-20T02:33:39+09:00</updated>
   <author>
     <name>Yang Se Jin</name>
     <uri>http://localhost:4000/</uri>
@@ -100,9 +100,9 @@ public class Main {
   <entry>
     <title>JAVA에 대하여 - 서론</title>
     <link href="http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0/" rel="alternate" type="text/html" title="JAVA에 대하여 - 서론" />
-    <published>2024-01-03T06:44:00+09:00</published>
+    <published>2024-01-04T06:44:00+09:00</published>
   
-    <updated>2024-01-03T06:44:00+09:00</updated>
+    <updated>2024-01-04T06:44:00+09:00</updated>
   
     <id>http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0/</id>
     <content src="http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0/" />
@@ -139,6 +139,60 @@ Python , c 계열 , 자바 가 50 퍼센트 가량 비율을 차지하고 있습
 특히, 대한민국에서는 정부 공식 프레임워크로 Spring기반을 사용하기 때문에 비중도가 높습니다.
 
 Python 의 경우 웹개발자 뿐만 아니라 AI , IOT등 차세대 분야에서도 많이 사용되고 있고 , 처음 언어를 공부할 때 편리하게 접근할 수 있어 높은 Ratings를 보여줍니다. 또한, 컴퓨터 공학을 전공하지는 않았지만 많은 관련업의 종사하시는 분들이 개발 언어로써 사용하고 ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>JAVA에 대하여 - 객체</title>
+    <link href="http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EA%B0%9D%EC%B2%B4/" rel="alternate" type="text/html" title="JAVA에 대하여 - 객체" />
+    <published>2024-01-04T06:44:00+09:00</published>
+  
+    <updated>2024-01-04T06:44:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EA%B0%9D%EC%B2%B4/</id>
+    <content src="http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EA%B0%9D%EC%B2%B4/" />
+    <author>
+      <name>Yang Se Jin</name>
+    </author>
+
+  
+    
+    <category term="java" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      객체 와 동작에 대한 이야기
+
+이번 포스트에서는 객체에 대해 이야기 해보겠습니다.
+
+필자 개인적으로 객체는 이해했다고 생각하면 뭔가 틀리는 경우도 있어서 이번 포스트를 적어보며 정리하는 시간을 가져봅니다.
+
+객체?
+
+자바에서 객체지향은 매우 중요한 개념입니다.
+
+객체 지향 즉, 객체를 만들어서 사용하는것을 지향한다. 인데
+
+여기서 객체를 정리해보면 이렇습니다.
+
+객체(Object)는 클래스(Class)의 인스턴스(Instance)
+
+클래스란, 객체와 행위가 합쳐진 공간입니다. 템플릿을 의미 합니다. 빗대어 표현하면 ‘틀’ 이라고 표현할 수 있습니다.
+
+인스턴스란, 클래스의 속하는 실제하는 객체 즉, 진짜 메모리에 할당 되어있는 객체를 말합니다.
+
+즉, 객체라는 것은 실제하는 메모리에 들어있는 데이터 그...
     </summary>
   
 
