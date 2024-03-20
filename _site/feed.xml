@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Sejin의 개발공부</title>
   <subtitle>hi , i'm sejin</subtitle>
-  <updated>2024-03-20T02:33:39+09:00</updated>
+  <updated>2024-03-20T15:48:15+09:00</updated>
   <author>
     <name>Yang Se Jin</name>
     <uri>http://localhost:4000/</uri>
@@ -98,14 +98,14 @@ public class Main {
 
   
   <entry>
-    <title>JAVA에 대하여 - 서론</title>
-    <link href="http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0/" rel="alternate" type="text/html" title="JAVA에 대하여 - 서론" />
-    <published>2024-01-04T06:44:00+09:00</published>
+    <title>JAVA에 대하여 - 동작</title>
+    <link href="http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EB%8F%99%EC%9E%91/" rel="alternate" type="text/html" title="JAVA에 대하여 - 동작" />
+    <published>2024-01-05T06:44:00+09:00</published>
   
-    <updated>2024-01-04T06:44:00+09:00</updated>
+    <updated>2024-01-05T06:44:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0/</id>
-    <content src="http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0/" />
+    <id>http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EB%8F%99%EC%9E%91/</id>
+    <content src="http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EB%8F%99%EC%9E%91/" />
     <author>
       <name>Yang Se Jin</name>
     </author>
@@ -126,19 +126,24 @@ public class Main {
 
       들어가며
 
-JAVA에 대해 공부하며 배운 것들을 정리하고 생각한 것들을 정리하는 포스트 입니다.
+이번 포스트 에서는 자바가 동작하는 구동 과정의 대해 정리해 보려고 합니다. 자바가 매력적인 이유 중 하나인 구동 과정에 대한 이야기는 매우 흥미롭습니다.
 
-개발자들이 많이 사용하는 언어가 궁금해 찾아보다 해당 사이트를 확인했습니다.
+자바는 어떻게 보여지나
 
 
 
-https://www.tiobe.com/tiobe-index/
+제가 정리하면 이미지를 보시면 크게 3가지의 소프트웨어를 통해 동작한다는 것을 볼 수 있습니다.
 
-Python , c 계열 , 자바 가 50 퍼센트 가량 비율을 차지하고 있습니다.
+JDK = 개발도구 , JRE = JVM용 OS , JVM = 자바 전용 가상 컴퓨터
 
-특히, 대한민국에서는 정부 공식 프레임워크로 Spring기반을 사용하기 때문에 비중도가 높습니다.
+이전 포스트에서 자바가 나온 이유에 대해 설명하며 다양한 플렛폼에서 사용이 가능하다는 의미가 바로 이런식으로 동작하기 때문에 가능합니다.
 
-Python 의 경우 웹개발자 뿐만 아니라 AI , IOT등 차세대 분야에서도 많이 사용되고 있고 , 처음 언어를 공부할 때 편리하게 접근할 수 있어 높은 Ratings를 보여줍니다. 또한, 컴퓨터 공학을 전공하지는 않았지만 많은 관련업의 종사하시는 분들이 개발 언어로써 사용하고 ...
+이런 특성을 Write once Run Anywhere 이라고 하는데 한국어로 “한번 쓰면 계속 쓸 수 있음” 입니다.
+
+JVM의 특징을 정리해보면 다음 과 같습니다.
+
+
+  플랫폼 독립성...
     </summary>
   
 
@@ -200,6 +205,54 @@ Python 의 경우 웹개발자 뿐만 아니라 AI , IOT등 차세대 분야에�
 
   
   <entry>
+    <title>JAVA에 대하여 - 서론</title>
+    <link href="http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0/" rel="alternate" type="text/html" title="JAVA에 대하여 - 서론" />
+    <published>2024-01-03T06:44:00+09:00</published>
+  
+    <updated>2024-03-20T02:34:41+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0/</id>
+    <content src="http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0/" />
+    <author>
+      <name>Yang Se Jin</name>
+    </author>
+
+  
+    
+    <category term="java" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      들어가며
+
+JAVA에 대해 공부하며 배운 것들을 정리하고 생각한 것들을 정리하는 포스트 입니다.
+
+개발자들이 많이 사용하는 언어가 궁금해 찾아보다 해당 사이트를 확인했습니다.
+
+
+
+https://www.tiobe.com/tiobe-index/
+
+Python , c 계열 , 자바 가 50 퍼센트 가량 비율을 차지하고 있습니다.
+
+특히, 대한민국에서는 정부 공식 프레임워크로 Spring기반을 사용하기 때문에 비중도가 높습니다.
+
+Python 의 경우 웹개발자 뿐만 아니라 AI , IOT등 차세대 분야에서도 많이 사용되고 있고 , 처음 언어를 공부할 때 편리하게 접근할 수 있어 높은 Ratings를 보여줍니다. 또한, 컴퓨터 공학을 전공하지는 않았지만 많은 관련업의 종사하시는 분들이 개발 언어로써 사용하고 ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Git 사용법 - 세팅</title>
     <link href="http://localhost:4000/posts/Git%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%A4%EC%A0%95/" rel="alternate" type="text/html" title="Git 사용법 - 세팅" />
     <published>2024-01-02T06:44:00+09:00</published>
@@ -245,60 +298,6 @@ Python 의 경우 웹개발자 뿐만 아니라 AI , IOT등 차세대 분야에�
 그래서 로컬말고 클라우드 서버에서 진행해보겠습니다!
 
 로컬에서 사용중인(개발자 개인컴퓨터)...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Git 사용법 - 서론&amp;설치</title>
-    <link href="http://localhost:4000/posts/Git%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0&amp;%EC%84%A4%EC%B9%98/" rel="alternate" type="text/html" title="Git 사용법 - 서론&amp;amp;설치" />
-    <published>2024-01-01T06:44:00+09:00</published>
-  
-    <updated>2024-01-01T06:44:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Git%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0&amp;%EC%84%A4%EC%B9%98/</id>
-    <content src="http://localhost:4000/posts/Git%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%9C%EB%A1%A0&amp;%EC%84%A4%EC%B9%98/" />
-    <author>
-      <name>Yang Se Jin</name>
-    </author>
-
-  
-    
-    <category term="Git" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      들어가며
-
-깃 , 깃허브는 개발자가 반드시 알아야 되는 필수 기술 중 하나라고 생각합니다.
-
-현재 개발자들이 애용하고 있고, 기업에서도 사용하고 있습니다.
-
-또한 , 많은 기능이 있어서 한 사이트 , 기술 스택에서 다양한 활동을 진행할 수 도 있습니다.
-
-포스트를 하며 여러 기술들에 대해 공부한 내용을 공유해 보려고 합니다.
-
-그래서 Git이 뭔데?
-
-Git 이란 버전관리 시스템 (VCS,Version Control System) 중 하나입니다.
-
-즉 , 버전을 관리하는 시스템 → 변경사항을 저장하고 , 메시지와함께 기록해둘 수 있습니다.
-
-왜 쓸까?
-
-여러 이유가 있지만 가장 근본적인 이유는 위 설명한 코드를 기록하는데 있습니다.
-
-그 외에도 여러 기능이 있는데 필자가 생각했을 때 가장 핵심적인 요소...
     </summary>
   
 
