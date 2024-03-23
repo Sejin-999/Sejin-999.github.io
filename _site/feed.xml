@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Sejin의 개발공부</title>
   <subtitle>hi , i'm sejin</subtitle>
-  <updated>2024-03-22T05:02:54+09:00</updated>
+  <updated>2024-03-23T14:53:15+09:00</updated>
   <author>
     <name>Yang Se Jin</name>
     <uri>http://localhost:4000/</uri>
@@ -91,6 +91,60 @@ public class Main {
 
 
 
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>자바에 대하여 - 스레드</title>
+    <link href="http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%8A%A4%EB%A0%88%EB%93%9C/" rel="alternate" type="text/html" title="자바에 대하여 - 스레드" />
+    <published>2024-01-08T06:44:00+09:00</published>
+  
+    <updated>2024-01-08T06:44:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%8A%A4%EB%A0%88%EB%93%9C/</id>
+    <content src="http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%8A%A4%EB%A0%88%EB%93%9C/" />
+    <author>
+      <name>Yang Se Jin</name>
+    </author>
+
+  
+    
+    <category term="java" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      5.JAVA-스레드
+
+들어가며
+
+이번 포스트에서는 스레드에 대한 포스트 입니다.
+
+사실 한번쯤은 모두 공부해본 내용이지만 , 정리도하고 java에서는 어떻게 활용할 수 있는지에 대한 이야기도 함께 하겠습니다.
+
+스레드?
+
+프로세스 내에서 실행되는 독립적인 작업 단위이며 여러 스레드가 하나의 프로세스에서 동작할 수 있습니다.
+
+그리고 스레드는 자체적인 흐름제어,스택,레지스터를 가지고 있습니다.
+
+사용하는 가장 큰 이유는 여러 작업을 동시에 수행하여 효율성을 높이기 위해 사용합니다.
+
+자바에서 스레드 쓰기
+
+
+  Thread 클래스 상속: Thread 클래스를 상속받고 run() 메서드를 오버라이딩하여 스레드의 실행 코드를 구현합니다.
+  Runnable 인터페이스 구현: Runnable 인터페이스를 구현...
     </summary>
   
 
@@ -263,60 +317,6 @@ JVM의 특징을 정리해보면 다음 과 같습니다.
 
 
   플랫폼 독립성...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>JAVA에 대하여 - 객체</title>
-    <link href="http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EA%B0%9D%EC%B2%B4/" rel="alternate" type="text/html" title="JAVA에 대하여 - 객체" />
-    <published>2024-01-04T06:44:00+09:00</published>
-  
-    <updated>2024-01-04T06:44:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EA%B0%9D%EC%B2%B4/</id>
-    <content src="http://localhost:4000/posts/Java%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EA%B0%9D%EC%B2%B4/" />
-    <author>
-      <name>Yang Se Jin</name>
-    </author>
-
-  
-    
-    <category term="java" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      객체 와 동작에 대한 이야기
-
-이번 포스트에서는 객체에 대해 이야기 해보겠습니다.
-
-필자 개인적으로 객체는 이해했다고 생각하면 뭔가 틀리는 경우도 있어서 이번 포스트를 적어보며 정리하는 시간을 가져봅니다.
-
-객체?
-
-자바에서 객체지향은 매우 중요한 개념입니다.
-
-객체 지향 즉, 객체를 만들어서 사용하는것을 지향한다. 인데
-
-여기서 객체를 정리해보면 이렇습니다.
-
-객체(Object)는 클래스(Class)의 인스턴스(Instance)
-
-클래스란, 객체와 행위가 합쳐진 공간입니다. 템플릿을 의미 합니다. 빗대어 표현하면 ‘틀’ 이라고 표현할 수 있습니다.
-
-인스턴스란, 클래스의 속하는 실제하는 객체 즉, 진짜 메모리에 할당 되어있는 객체를 말합니다.
-
-즉, 객체라는 것은 실제하는 메모리에 들어있는 데이터 그...
     </summary>
   
 
