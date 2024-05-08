@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Sejin의 개발공부</title>
   <subtitle>hi , i'm sejin</subtitle>
-  <updated>2024-05-08T15:04:51+09:00</updated>
+  <updated>2024-05-08T15:15:35+09:00</updated>
   <author>
     <name>Yang Se Jin</name>
     <uri>http://localhost:4000/</uri>
@@ -106,6 +106,62 @@ public class Main {
   
     <id>http://localhost:4000/posts/Java-Hash/</id>
     <content src="http://localhost:4000/posts/Java-Hash/" />
+    <author>
+      <name>Yang Se Jin</name>
+    </author>
+
+  
+    
+    <category term="java" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      들어가며
+
+이번 포스트 에서는 Hash에 대하여 공부해볼 것입니다.
+
+Hash?
+
+고정된 크기로 값을 바꾸는 함수 or 알고리즘
+
+java에서 hash
+
+키와 값의 쌍을 저장하는 데이터 구조입니다.
+
+키는 고유한 식별자이며 값은 키와 연관된 데이터입니다.
+
+해시 테이블이라고도 불리는 해시 구조는 데이터 검색 및 삽입 속도가 매우 빠르다는 장점이 있습니다.
+
+어떤 키값을 통해 해시함수로 고정된 크기의 해시 값을 만들고 이 값으로 배열의 인덱스 , 위치 , 데이터 값을 저장하거나 검색할 때 활용합니다.
+
+해시 코드는 고정된 길이의 정수 값이며, 일반적으로 키의 일부 비트를 추출하거나 키를 제곱한 후 일부 비트를 추출하는 방식으로 계산됩니다.
+
+해쉬함수
+
+임의의 데이터를 고정된 길이의 값으로 리턴해주는 함수...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>자바에 대하여 - Hash에 대하여</title>
+    <link href="http://localhost:4000/posts/Java-Hash-test/" rel="alternate" type="text/html" title="자바에 대하여 - Hash에 대하여" />
+    <published>2024-01-31T06:44:00+09:00</published>
+  
+    <updated>2024-01-31T06:44:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Java-Hash-test/</id>
+    <content src="http://localhost:4000/posts/Java-Hash-test/" />
     <author>
       <name>Yang Se Jin</name>
     </author>
@@ -261,54 +317,6 @@ int의 경우 21억 정도 까지의 값들을 저장할 수 있는데 만약 �
 논리 : boolean - 1
 
 이렇게 원시타입이 이루어...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>CS - 동기화와 비동기화</title>
-    <link href="http://localhost:4000/posts/CS-%EB%8F%99%EA%B8%B0%ED%99%94%EC%99%80-%EB%B9%84%EB%8F%99%EA%B8%B0%ED%99%94/" rel="alternate" type="text/html" title="CS - 동기화와 비동기화" />
-    <published>2024-01-27T06:44:00+09:00</published>
-  
-    <updated>2024-01-27T06:44:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/CS-%EB%8F%99%EA%B8%B0%ED%99%94%EC%99%80-%EB%B9%84%EB%8F%99%EA%B8%B0%ED%99%94/</id>
-    <content src="http://localhost:4000/posts/CS-%EB%8F%99%EA%B8%B0%ED%99%94%EC%99%80-%EB%B9%84%EB%8F%99%EA%B8%B0%ED%99%94/" />
-    <author>
-      <name>Yang Se Jin</name>
-    </author>
-
-  
-    
-    <category term="cs" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      여러 프로세스/스레드를 동시에 실행해도 공유데이터의 일관성을 유지하는 것을 말한다.
-
-동기화 (Synchronous)
-
-한 작업이 완료될 때까지 다음 작업이 시작되지 않습니다.
-
-예를 들어 줄을 서는 것과 동일합니다. A작업을 수행하고 이를 바탕으로 B작업을 할때 이를 동기방식 이라고 합니다.
-
-프로세스, 스레드의 관점에서는 공유자원에 접근할 때 서로의 작업의 영향일 미치지 않으면서 공유하는 자원의 접근을 조절해 경쟁상태가 되지 않도록 하는 것을 말합니다.
-
-장단점은 코드 이해가 좋고, 명확하게 제어하며 데이터 손상 위험이 적습니다. 반대로 처리 속도가 느려질 수 있고, 블로킹 현상이 발생해 작업이 중단 될 수 있습니다.
-
-비동기화 (Asynchronous)
-
-한 작업이 완료되기를 기다리지 않고 다른 ...
     </summary>
   
 
