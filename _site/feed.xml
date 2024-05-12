@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Sejin의 개발공부</title>
   <subtitle>hi , i'm sejin</subtitle>
-  <updated>2024-05-08T15:15:35+09:00</updated>
+  <updated>2024-05-12T18:47:42+09:00</updated>
   <author>
     <name>Yang Se Jin</name>
     <uri>http://localhost:4000/</uri>
@@ -91,6 +91,61 @@ public class Main {
 
 
 
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>자바에 대하여 - OOP에서의 디자인패턴</title>
+    <link href="http://localhost:4000/posts/Java-OOP-%EC%97%90%EC%84%9C%EC%9D%98-%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/" rel="alternate" type="text/html" title="자바에 대하여 - OOP에서의 디자인패턴" />
+    <published>2024-02-01T06:44:00+09:00</published>
+  
+    <updated>2024-02-01T06:44:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Java-OOP-%EC%97%90%EC%84%9C%EC%9D%98-%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/</id>
+    <content src="http://localhost:4000/posts/Java-OOP-%EC%97%90%EC%84%9C%EC%9D%98-%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/" />
+    <author>
+      <name>Yang Se Jin</name>
+    </author>
+
+  
+    
+    <category term="java" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      들어가며
+
+디자인 패턴이란, 클래스들 간의 관계를 어떻게 잘 연결할 것인지에 대해 이야기하는 것입니다.
+
+생성 패턴
+
+이러한 패턴들은 기존 코드의 유연성과 재사용을 증가시키는 다양한 객체 생성 메커니즘들을 제공합니다.
+
+구조 패턴
+
+이러한 패턴들은 객체들과 클래스들을 구조를 유연하고 효율적으로 유지하면서 더 큰 구조로 조립하는 방법을 설명합니다.
+
+행동 패턴
+
+이러한 패턴들은 알고리즘들 및 객체 간의 책임 할당과 관련이 있습니다.
+
+SingleTone
+
+어떤 클래스가 최대 한 번의 인스턴스만을 갖도록 보장하는 패턴입니다. 이 패턴을 사용하면 특정 클래스의 인스턴스가 오직 하나만 존재하도록 제한할 수 있으므로, 리소스의 낭비를 방지하고 객체 간의 일관성을 유지할 수 있습니다.
+
+
+  Private Con...
     </summary>
   
 
@@ -257,66 +312,6 @@ DI 는 의존성 주입으로 객체를 만들 때 객체를 통해 객체를 �
 만약 A에서 B , C 가 문제가 생기거나 수정 사항이 생기면 이를 제어하기 위해 A 객체 자체가 정상적으로 작동하지 않을 것입니다.
 
 예를 들어 객체 A를 결제프로세스 전체 라고...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>자바에 대하여 - String</title>
-    <link href="http://localhost:4000/posts/Java-String-%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC/" rel="alternate" type="text/html" title="자바에 대하여 - String" />
-    <published>2024-01-28T06:44:00+09:00</published>
-  
-    <updated>2024-01-28T06:44:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Java-String-%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC/</id>
-    <content src="http://localhost:4000/posts/Java-String-%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC/" />
-    <author>
-      <name>Yang Se Jin</name>
-    </author>
-
-  
-    
-    <category term="java" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      들어가며
-
-이번 포스트에서는 자바에서 String 에 대해 이해해 보려고합니다.
-
-String은 기본적으로 제공되는 변수 - 원시타입들과는 다릅니다.
-
-원시타입
-
-기본적으로 제공 하는 변수형 들을 말합니다.
-
-정수 : btye short int long - 1 , 2 , 4 , 8 바이트로 이루어져있습니다.
-
-사용
-
-저는  특별한 제약조건이 있는 경우가 아니라면  int 와 long을 사용하고 있습니다.
-
-int의 경우 21억 정도 까지의 값들을 저장할 수 있는데 만약 저장 될 값이
-
-20억이 넘어갈 것같은 경우에는 long으로 아닌 경우에는 int를 사용하고 있습니다.
-
-실수 : float Double  - 4 ,8
-
-문자 : char - 2
-
-논리 : boolean - 1
-
-이렇게 원시타입이 이루어...
     </summary>
   
 
